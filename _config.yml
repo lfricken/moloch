@@ -1,6 +1,10 @@
 theme: jekyll-theme-midnight
 plugins:
   - jekyll-relative-links
+collections:
+  headers:
+    output: true
 relative_links:
   enabled: true
   collections: true
+
