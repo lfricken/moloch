@@ -1,5 +1,5 @@
 ---
-title: Jane Doe
+title: Rules
 ---
 
 Meditations On Moloch: Abridged

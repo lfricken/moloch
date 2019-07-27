@@ -1,4 +1,4 @@
-About
+Home
 =============
 A boardgame of 
 

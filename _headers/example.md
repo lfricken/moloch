@@ -1,5 +1,5 @@
 ---
-title: 22
+title: Examples
 ---
 
 Meditations On Moloch: Abridged
