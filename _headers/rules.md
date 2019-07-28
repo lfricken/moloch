@@ -2,7 +2,7 @@
 title: Rules
 ---
 
-Meditations On Moloch: Abridged
+Rules
 =============
 [Original here](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 

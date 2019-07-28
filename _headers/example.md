@@ -2,7 +2,7 @@
 title: Examples
 ---
 
-Meditations On Moloch: Abridged
+Examples
 =============
 [Original here](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 
