@@ -1,4 +1,4 @@
-The _Why_: Meditations on Moloch: Abridged
+Meditations on Moloch: Abridged
 =============
 [Original article here](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 
