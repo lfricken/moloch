@@ -65,7 +65,7 @@ This example is kind of contrived. So let’s run through some real world exampl
 
 2. [Dollar Auctions](https://en.wikipedia.org/wiki/Dollar_auction). Using some weird auction rules, you can take advantage of poor coordination to make someone pay $10 for $1. From a god’s-eye-view, clearly people should not pay $10 for $1. From within the system, each individual's decisions were consistently rational.
 
-3. [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) is a situation where individuals can recieve benefits from using a common good, while only having to pay for a small percentage of the costs.
+3. [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
 
 Consider fish farming in a lake. Imagine a lake with a thousand identical fish farms owned by a thousand competing companies. Each fish farm earns a profit of $1000/month. For a while, all is well.
 
@@ -85,8 +85,8 @@ A self-interested person never has any incentive to use a filter. A self-interes
 
 From a god’s-eye-view, we can say that polluting the lake leads to bad consequences. From within the system, no individual can prevent the lake from being polluted, and buying a filter is not in your self interest.
 
-4. [The Malthusian Trap](https://en.wikipedia.org/wiki/Malthusian_trap), where most humans have been stuck throughout human history.
-At least, at its extremely pure theoretical limits. Suppose you are one of the first rats introduced onto a pristine island. It is full of yummy plants and you live an idyllic life lounging about, eating, and composing great works of art (you’re one of those rats from The Rats of NIMH).
+4. [The Malthusian Trap](https://en.wikipedia.org/wiki/Malthusian_trap)
+Where most humans have been stuck throughout human history. At least, at its extremely pure theoretical limits. Suppose you are one of the first rats introduced onto a pristine island. It is full of yummy plants and you live an idyllic life lounging about, eating, and composing great works of art (you’re one of those rats from The Rats of NIMH).
 
 You live a long life, mate, and have a dozen children. All of them have a dozen children, and so on. In a couple generations, the island has ten thousand rats and has reached its carrying capacity. Now there’s not enough food and space to go around, and a certain percent of each new generation dies in order to keep the population steady at ten thousand.
 
@@ -110,7 +110,11 @@ From a god’s-eye-view, we can contrive a friendly industry where every company
 
 (Moloch whose love is endless oil and stone! Moloch whose blood is running money!)
 
+6. The Two-Income Trap, as recently discussed on this blog. It theorized that sufficiently intense competition for suburban houses in good school districts meant that people had to throw away lots of other values – time at home with their children, financial security – to optimize for house-buying-ability or else be consigned to the ghetto.
 
+From a god’s-eye-view, if everyone agrees not to take on a second job to help win their competition for nice houses, then everyone will get exactly as nice a house as they did before, but only have to work one job. From within the system, absent a government literally willing to ban second jobs, everyone who doesn’t get one will be left behind.
+
+(Robot apartments! Invisible suburbs!)
 
 
 
