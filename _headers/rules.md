@@ -1,10 +1,6 @@
----
-title: Rules
----
-
-Rules
+The _Why_: Meditations on Moloch: Abridged
 =============
-[Original here](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
+[Original article here](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 
 Allen Ginsberg’s famous poem on Moloch:
 
@@ -40,7 +36,7 @@ Allen Ginsberg’s famous poem on Moloch:
 
 What’s always impressed me about this poem is its conception of civilization as an individual entity. You can almost see him, with his fingers of armies and his skyscraper-window eyes.
 
-Many say Moloch represents capitalism. This is definitely a piece of it, even a big piece. But it doesn’t quite fit. Capitalism, whose fate is a cloud of sexless hydrogen? Capitalism in whom I am a consciousness without a body? Capitalism, therefore granite cocks?
+Some say Moloch represents capitalism. This is a piece of it, even a big piece. But it doesn’t quite fit. Capitalism, whose fate is a cloud of sexless hydrogen? Capitalism in whom I am a consciousness without a body? Capitalism, therefore granite cocks?
 
 Moloch is introduced as the answer to a question – C. S. Lewis’ question in Hierarchy Of Philosophers – what does it? Earth could be fair, and all men glad and wise. Instead we have prisons, smokestacks, asylums. What sphinx of cement and aluminum breaks open their skulls and eats up their imagination?
 
@@ -56,11 +52,11 @@ Goddess: “Oh. Well then stop.”
 
 ---
 
-If everyone hates the current system, who perpetuates it? And Ginsberg answers: “Moloch”. This thought is powerful not because it’s correct – nobody literally thinks an ancient Carthaginian demon causes everything – but because thinking of the system as an agent throws into relief the degree to which the system isn’t an agent.
+So if everyone hates the current system, who perpetuates it? And Ginsberg answers: “Moloch”. This answer is powerful not because it’s correct – nobody literally thinks an ancient Carthaginian demon causes everything – but because thinking of the system as an agent throws into relief the degree to which the system isn’t an agent.
 
-Nick Bostrom makes an offhanded reference of the possibility of a dictatorless dystopia, one that every single participant hates but which nevertheless endures unconquered. It’s easy enough to imagine such a state. Imagine a country with two rules: first, every person must spend eight hours a day giving themselves strong electric shocks. Second, if anyone fails to follow a rule (including this one), or speaks out against it, or fails to enforce it, all citizens must unite to kill that person. Suppose these rules were well-enough established by tradition that everyone expected them to be enforced.
+[Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom) makes an offhanded reference of the possibility of a dictatorless dystopia, one that every single participant hates but which nevertheless endures unconquered. It’s easy enough to imagine such a state. Imagine a country with two rules: first, every person must spend eight hours a day giving themselves strong electric shocks. Second, if anyone fails to follow the rules (including this one), speaks out against them, or fails to enforce them, all citizens must unite to kill that person. Suppose these rules were well-enough established by tradition that everyone expected them to be enforced.
 
-So you shock yourself for eight hours a day, because you know if you don’t everyone else will kill you, because if they don’t, everyone else will kill them, and so on. Every single citizen hates the system, but for lack of a good coordination mechanism it endures. From a god’s-eye-view, we can optimize the system to “everyone agrees to stop doing this at once”, but no one within the system is able to effect the transition without great risk to themselves.
+So you shock yourself for eight hours a day, because you know if you don’t then everyone else will kill you, because if they don’t, everyone else will kill them, and so on. Every single citizen hates the system. Maybe the few most rebelious people stand up and encourage everyone else to follow, but are quickly killed by their more fearful peers. Now the odds of a successful revolution in the future have gone down. If people keep standing up individually, just to be killed off, eventually the only people left will be those who never risk rebelling. Everyone needs to stop obeying the rules at the same time, but for lack of a good coordination mechanism, it never happens. From a god’s-eye-view, we can optimize the system to “everyone agrees to stop doing this at once”, but no one within the system is able to trigger the transition without great risk to themselves.
 
 This example is kind of contrived. So let’s run through some real world examples of similar multipolar traps to really hammer in how important this is.
 
@@ -89,101 +85,10 @@ This example is kind of contrived. So let’s run through some real world exampl
 
 
 
-## How to Play
-You can check out how to play on our [wiki](https://github.com/huytd/agar.io-clone/wiki/How-to-Play).
-
-#### Game Basics
-- Move your mouse around the screen to move your cell.
-- Eat food and other players in order to grow your character (food respawns every time a player eats it).
-- A player's **mass** is the number of food particles eaten.
-- **Objective**: Try to get as big as possible and eat other players.
-
-#### Gameplay Rules
-- Players who haven't eaten yet cannot be eaten as a sort of "grace" period. This invincibility fades once they gain mass.
-- Everytime a player joins the game, **3** food particles will spawn.
-- Everytime a food particle is eaten by a player, **1** new food particle will respawn.
-- The more food you eat, the slower you move to make the game fairer for all.
-
----
-
-## Latest Changes
-- Game logic is handled by the server
-- The client side is for rendering of the canvas and it's items only.
-- Mobile optimisation.
-- Implementation of working viruses.
-- Display player name.
-- Now supporting chat. 
-- Type`-ping` in the chatbox to check your ping, as well as other commands!
-
----
-
-## Installation
-You can simply click one of the buttons below to easily deploy this repo to Bluemix or Heroku:
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/huytd/agar.io-clone)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-Or...
-
->You can check out a more detailed setup tutorial on our [wiki](https://github.com/huytd/agar.io-clone/wiki/Setup).
-
-#### Requirements
-To run / install this game, you'll need: 
-- NodeJS with NPM installed.
-- socket.IO.
-- Express.
 
 
-#### Downloading the dependencies
-After cloning the source code from Github, you need to run the following command to download all the dependencies (socket.IO, express, etc.):
-
-```
-npm install
-```
-
-#### Running the Server
-After downloading all the dependencies, you can run the server with the following command:
-
-```
-npm start
-```
-
-The game will then be accessible at `http://localhost:3000` or the respective server installed on. The default port is `3000`, however this can be changed in config. Further elaboration is available on our [wiki](https://github.com/huytd/agar.io-clone/wiki/Setup).
 
 
-### Running the Server with Docker
-If you have [Docker](https://www.docker.com/) installed, after cloning the repository you can run the following commands to start the server and make it acessible at `http://localhost:3000`:
 
-```
-docker build -t agarioclone_agar .
-docker run -it -p 3000:3000 agarioclone_agar
-```
-
----
-
-## FAQ
-1. **What is this game?**
-
-  This is a clone of the game [Agar.IO](http://agar.io/). Someone said that Agar.IO is a clone of an iPad game called Osmos, but we haven't tried it yet. (Cloneception? :P)
-  
-2. **Why would you make a clone of this game?**
-
-  Well, while the original game is still online, it is closed-source, and sometimes, it suffers from massive lag. That's why we want to make an open source version of it: for educational purposes, and to let the community add the features that they want, self-host it on their own servers, have fun with friends and more.
-  
-3. **Any plans on adding an online server to compete with Agar.IO or making money out of it?**
-
-  No. This game belongs to the open-source community, and we have no plans on making money out of it nor competing with anything. But you can of course create your own public server, let us know if you do so and we can add it to our Live Demos list!
-  
-4. **Can I deploy this game to my own server?**
-
-  Sure you can! That's what it's made for! ;)
-  
-5. **I don't like HTML5 canvas. Can I write my own game client with this server?**
-
-  Of course! As long as your client supports WebSockets, you can write your game client in any language/technology, even with Unity3D if you want (there is an open source library for Unity to communicate with WebSockets)!
-  
-6. **Can I use some code of this project on my own?**
-
-  Yes you can.
 
 
