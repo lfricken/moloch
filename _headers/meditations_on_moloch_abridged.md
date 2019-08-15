@@ -65,8 +65,9 @@ This example is kind of contrived. So let’s run through some real world exampl
 
 2. [Dollar Auctions](https://en.wikipedia.org/wiki/Dollar_auction). Using some weird auction rules, you can take advantage of poor coordination to make someone pay $10 for $1. From a god’s-eye-view, clearly people should not pay $10 for $1. From within the system, each individual's decisions were consistently rational.
 
-3. [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) 
->Let’s consider fish farming in a lake. Imagine a lake with a thousand identical fish farms owned by a thousand competing companies. Each fish farm earns a profit of $1000/month. For a while, all is well.
+3. [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) is a situation where individuals can recieve benefits from using a common good, while only having to pay for a small percentage of the costs.
+
+>Consider fish farming in a lake. Imagine a lake with a thousand identical fish farms owned by a thousand competing companies. Each fish farm earns a profit of $1000/month. For a while, all is well.
 >
 >Each fish farm produces waste, which fouls the water in the lake. Let’s say each fish farm produces enough pollution to lower productivity in the lake by $1/month.
 >
@@ -83,7 +84,7 @@ This example is kind of contrived. So let’s run through some real world exampl
 >A self-interested person never has any incentive to use a filter. A self-interested person has some incentive to sign a pact to make everyone use a filter, but in many cases has a stronger incentive to wait for everyone else to sign such a pact but opt out himself. This can lead to an undesirable equilibrium in which no one will sign such a pact.
 > From a god’s-eye-view, we can say that polluting the lake leads to bad consequences. From within the system, no individual can prevent the lake from being polluted, and buying a filter is not in your self interest.
 
-4. [The Malthusian Trap](https://en.wikipedia.org/wiki/Malthusian_trap)
+4. [The Malthusian Trap](https://en.wikipedia.org/wiki/Malthusian_trap), where most humans have been stuck throughout human history.
 >At least, at its extremely pure theoretical limits. Suppose you are one of the first rats introduced onto a pristine island. It is full of yummy plants and you live an idyllic life lounging about, eating, and composing great works of art (you’re one of those rats from The Rats of NIMH).
 >
 >You live a long life, mate, and have a dozen children. All of them have a dozen children, and so on. In a couple generations, the island has ten thousand rats and has reached its carrying capacity. Now there’s not enough food and space to go around, and a certain percent of each new generation dies in order to keep the population steady at ten thousand.
